@@ -12,7 +12,8 @@
         "--socket=wayland",
         "--socket=pulseaudio",
         "--filesystem=/tmp",
-        "--filesystem=host:ro",
+        "--filesystem=xdg-music:ro",
+        "--filesystem=xdg-download:ro",
         "--filesystem=xdg-run/pipewire-0:ro",
         "--filesystem=xdg-run/gvfsd",
         "--talk-name=org.gtk.vfs.*"
@@ -37,7 +38,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "tag": "v1.0",
+                    "tag": "v1.0.1",
                     "url": "https://gitlab.gnome.org/neithern/g4music.git"
                 }
             ]
