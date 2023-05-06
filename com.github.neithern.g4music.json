@@ -1,21 +1,22 @@
 {
     "app-id": "com.github.neithern.g4music",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "43",
+    "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
     "command": "g4music",
     "finish-args": [
         "--device=dri",
-        "--share=network",
         "--share=ipc",
+        "--share=network",
         "--socket=fallback-x11",
-        "--socket=wayland",
         "--socket=pulseaudio",
-        "--filesystem=/tmp",
-        "--filesystem=xdg-music:ro",
+        "--socket=wayland",
         "--filesystem=xdg-download:ro",
-        "--filesystem=xdg-run/pipewire-0:ro",
+        "--filesystem=xdg-music:ro",
         "--filesystem=xdg-run/gvfsd",
+        "--filesystem=xdg-run/pipewire-0:ro",
+        "--own-name=org.mpris.MediaPlayer2.G4Music",
+        "--talk-name=org.gnome.Shell",
         "--talk-name=org.gtk.vfs.*"
     ],
     "cleanup": [
@@ -38,7 +39,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "tag": "v1.9.2",
+                    "tag": "v1.10",
                     "url": "https://gitlab.gnome.org/neithern/g4music.git"
                 }
             ]
