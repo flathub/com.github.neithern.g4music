@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.neithern.g4music",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "44",
+    "runtime-version": "45",
     "sdk": "org.gnome.Sdk",
     "command": "g4music",
     "finish-args": [
@@ -39,7 +39,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "tag": "v3.3",
+                    "tag": "v3.4",
                     "url": "https://gitlab.gnome.org/neithern/g4music.git"
                 }
             ]
