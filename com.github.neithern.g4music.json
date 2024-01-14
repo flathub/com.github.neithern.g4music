@@ -39,7 +39,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "tag": "v3.5",
+                    "tag": "v3.5.1",
                     "url": "https://gitlab.gnome.org/neithern/g4music.git"
                 }
             ]
