@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.neithern.g4music",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
     "command": "g4music",
     "finish-args": [
@@ -11,8 +11,7 @@
         "--socket=fallback-x11",
         "--socket=pulseaudio",
         "--socket=wayland",
-        "--filesystem=xdg-download:ro",
-        "--filesystem=xdg-music:ro",
+        "--filesystem=xdg-music",
         "--filesystem=xdg-run/gvfsd",
         "--filesystem=xdg-run/pipewire-0:ro",
         "--own-name=org.mpris.MediaPlayer2.Gapless",
@@ -39,7 +38,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "tag": "v3.9.2",
+                    "tag": "v4.0",
                     "url": "https://gitlab.gnome.org/neithern/g4music.git"
                 }
             ]
