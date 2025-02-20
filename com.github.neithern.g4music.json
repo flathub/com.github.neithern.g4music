@@ -20,7 +20,6 @@
         "/lib/pkgconfig",
         "/man",
         "/share/doc",
-        "/share/gtk-doc",
         "/share/man",
         "/share/pkgconfig",
         "/share/vala",
