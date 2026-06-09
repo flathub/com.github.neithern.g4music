@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.neithern.g4music",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "command": "g4music",
     "finish-args": [
@@ -15,17 +15,6 @@
         "--own-name=org.mpris.MediaPlayer2.Gapless",
         "--talk-name=org.gtk.vfs.*"
     ],
-    "cleanup": [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "/share/vala",
-        "*.la",
-        "*.a"
-    ],
     "modules": [
         {
             "name": "g4music",
@@ -34,7 +23,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "tag": "v4.6",
+                    "tag": "v4.6.1",
                     "url": "https://gitlab.gnome.org/neithern/g4music.git"
                 }
             ]
